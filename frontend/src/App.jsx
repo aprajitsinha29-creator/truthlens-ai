@@ -13,7 +13,7 @@ function App() {
 
     setLoading(true)
 
-    const response = await fetch("https://truthlens-backend-jo1f.onrender.com", {
+    const response = await fetch("https://truthlens-backend-jo1f.onrender.com/analyze", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
